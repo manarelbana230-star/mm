@@ -1,0 +1,140 @@
+@media screen and (max-width: 576px){
+    .con2{
+        flex-direction: column;
+        padding: 30px 15px;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .nav ul{
+        flex-direction: column;
+        padding: 0px;
+        text-align: center;
+    }
+    .photo, .speach{
+        width: 100%;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .con4{
+        flex-direction: column;
+
+    }
+    .child{
+        width: 100%;
+    }
+    .item3{
+        flex-direction: column;
+    }
+    .first, .secound, .three{
+        width: 100%;
+    }
+    .contact input, .contact textarea{width: 90%;
+    display: block;
+margin: 10px auto;
+}
+}
+@media screen and (max-width:768px) {
+   .nav{
+    flex-direction: column;
+    }
+    .nav ul{
+    flex-direction: column;
+padding: 0;
+        text-align: center;
+    }
+    .nav li{
+        font-size: 13px;
+    }
+    .con2{
+        flex-direction: column;
+    }
+    .photo, .speach{
+        width: 90%;
+    }
+   .con4{
+    flex-wrap: wrap;
+   } 
+   .child{
+    width: 45%;
+   }
+   .information{
+padding: 40px 30px;
+flex-wrap: wrap;
+   }
+   .item3{
+    flex-wrap: wrap;
+   }
+   .first, .secound, .three{
+    width: 100%;
+   }
+}
+@media screen and (max-width:1024px) {
+   .nav{
+    flex-direction: column;
+    padding: 15px 4%;
+
+   }
+
+    .con2{
+        padding: 40px 20px;
+        gap: 30px;
+    }
+    .photo{
+        width: 40%;
+    }
+    .speach{
+        width: 55%;
+    }
+    .information{
+        padding: 40px 50px;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+     .nav{
+    padding: 15px 10%;
+   }
+   
+    .con2{
+        padding: 50px 10px;
+        gap: 30px;
+    }
+    .photo{
+        width: 40%;
+    }
+    .speach{
+        width: 55%;
+    }
+    .information{
+        padding: 50px 10px;
+    }
+    
+}
+@media screen and (min-width: 769px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 5%;
+    }
+
+    .nav h3 {
+        margin: 0;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav ul li {
+        margin: 0;
+    }
+}
